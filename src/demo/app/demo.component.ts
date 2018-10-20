@@ -196,7 +196,7 @@ export class DemoComponent implements OnInit {
       '&framework=' + this.selectedFramework +
       '&language=' + this.selectedLanguage;
   }
-
+  hello() {}
   // Display the form entered by the user
   // (runs whenever the user changes the jsonform object in the ACE input field)
   generateForm(newFormString: string) {
